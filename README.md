@@ -1,0 +1,1 @@
+此仓库为 8 位计算机制作的学习笔记，基于 [Logical Circuit](https://logiccircuit.org/) 和 [踌躇月光](https://space.bilibili.com/491131440) 创造的[B站视频](https://www.bilibili.com/video/BV1aP4y1s7Vf/?spm_id_from=333.337.search-card.all.click&vd_source=c06d092ddfc3e3120c41071600f30c9d) 此处仅用于记录
