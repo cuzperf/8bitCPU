@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lc:CircuitProject xmlns:lc="http://LogicCircuit.net/2.0.0.13/CircuitProject.xsd">
+	<lc:Project>
+		<lc:ProjectId>31cbcb24-8359-4319-bea2-fe981b0af738</lc:ProjectId>
+		<lc:LogicalCircuitId>067f4bf2-c598-4cbd-866a-a87a01e429d9</lc:LogicalCircuitId>
+	</lc:Project>
+	<lc:LogicalCircuit>
+		<lc:LogicalCircuitId>067f4bf2-c598-4cbd-866a-a87a01e429d9</lc:LogicalCircuitId>
+		<lc:Notation>Main</lc:Notation>
+	</lc:LogicalCircuit>
+</lc:CircuitProject>
