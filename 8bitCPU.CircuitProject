@@ -3,17 +3,10 @@
 	<lc:Project>
 		<lc:ProjectId>31cbcb24-8359-4319-bea2-fe981b0af738</lc:ProjectId>
 		<lc:Zoom>0.8</lc:Zoom>
-		<lc:LogicalCircuitId>1d54ced4-62dc-438f-af2f-2c3c4570dc35</lc:LogicalCircuitId>
-		<lc:CategoryTextNoteCollapsed>True</lc:CategoryTextNoteCollapsed>
+		<lc:LogicalCircuitId>01587c46-1f62-4c80-8b6a-68ddf9db7533</lc:LogicalCircuitId>
 		<lc:CategoryInputOutputCollapsed>True</lc:CategoryInputOutputCollapsed>
 		<lc:CategoryPrimitivesCollapsed>True</lc:CategoryPrimitivesCollapsed>
 	</lc:Project>
-	<lc:CollapsedCategory>
-		<lc:Name>Selector</lc:Name>
-	</lc:CollapsedCategory>
-	<lc:CollapsedCategory>
-		<lc:Name>Input-Output</lc:Name>
-	</lc:CollapsedCategory>
 	<lc:LogicalCircuit>
 		<lc:LogicalCircuitId>067f4bf2-c598-4cbd-866a-a87a01e429d9</lc:LogicalCircuitId>
 		<lc:Notation>Main</lc:Notation>
@@ -359,8 +352,8 @@
 		<lc:PinId>88b48f0f-51d4-45e1-af3c-5d96ca632b7e</lc:PinId>
 		<lc:CircuitId>b6a12f42-d122-492c-896a-a28bb4ec2b18</lc:CircuitId>
 		<lc:BitWidth>8</lc:BitWidth>
-		<lc:Name>A</lc:Name>
-		<lc:JamNotation>A</lc:JamNotation>
+		<lc:Name>B</lc:Name>
+		<lc:JamNotation>B</lc:JamNotation>
 	</lc:Pin>
 	<lc:Pin>
 		<lc:PinId>57f16c39-653a-4fa5-a75f-d84cf743f5c3</lc:PinId>
@@ -1948,6 +1941,13 @@ KAIpAjACMQIyAjMCNAI1AjYCNwI4AjkCQAJBAkICQwJEAkUCRgJHAkgCSQJQAlECUgJTAlQCVQI=</lc
 		<lc:LogicalCircuitId>dc660156-d7cc-4d21-8558-436dd655c05b</lc:LogicalCircuitId>
 		<lc:X>27</lc:X>
 		<lc:Y>13</lc:Y>
+	</lc:CircuitSymbol>
+	<lc:CircuitSymbol>
+		<lc:CircuitSymbolId>28c8b02f-957a-4223-a20e-4ba3b77d5831</lc:CircuitSymbolId>
+		<lc:CircuitId>01587c46-1f62-4c80-8b6a-68ddf9db7533</lc:CircuitId>
+		<lc:LogicalCircuitId>792e0409-6560-47f8-a029-d1d1a4a55399</lc:LogicalCircuitId>
+		<lc:X>30</lc:X>
+		<lc:Y>10</lc:Y>
 	</lc:CircuitSymbol>
 	<lc:Wire>
 		<lc:WireId>f9499e54-fc63-44a9-8017-a85643b86514</lc:WireId>
@@ -4773,4 +4773,58 @@ KAIpAjACMQIyAjMCNAI1AjYCNwI4AjkCQAJBAkICQwJEAkUCRgJHAkgCSQJQAlECUgJTAlQCVQI=</lc
 		<lc:X2>47</lc:X2>
 		<lc:Y2>4</lc:Y2>
 	</lc:Wire>
+	<lc:TextNote>
+		<lc:TextNoteId>4dbf3170-6ea6-4b84-8a71-98b5b4e537f8</lc:TextNoteId>
+		<lc:LogicalCircuitId>1ed91b9e-058f-4e25-81a8-64253a0a9194</lc:LogicalCircuitId>
+		<lc:X>15</lc:X>
+		<lc:Y>6</lc:Y>
+		<lc:Width>11</lc:Width>
+		<lc:Height>2</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="zh-cn"&gt;当 A 为 1 时，电路出现震荡&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>31c8c7fd-cab7-4dd2-ade3-d16086d44210</lc:TextNoteId>
+		<lc:LogicalCircuitId>b6a12f42-d122-492c-896a-a28bb4ec2b18</lc:LogicalCircuitId>
+		<lc:X>8</lc:X>
+		<lc:Y>1</lc:Y>
+		<lc:Width>15</lc:Width>
+		<lc:Height>2</lc:Height>
+		<lc:Note>&lt;FlowDocument TextAlignment="Left" PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;Run xml:lang="zh-cn"&gt;当 EN 为 0 时 Q = B 否则 Q = B 的各位取非，这个跟 EN 的意义可能有点不一样&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>d9a62161-8a86-4d82-af32-48a94903a97b</lc:TextNoteId>
+		<lc:LogicalCircuitId>85d19c99-882f-43ef-b4a0-6080fcffe87f</lc:LogicalCircuitId>
+		<lc:X>1</lc:X>
+		<lc:Y>1</lc:Y>
+		<lc:Width>6</lc:Width>
+		<lc:Height>1</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph Margin="0,6,2,6"&gt;&lt;Run xml:lang="zh-cn"&gt;Q = EN ? A : B&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>2588afee-46d2-4ab2-ad1c-da5a9ba56955</lc:TextNoteId>
+		<lc:LogicalCircuitId>e22cfe52-d0cb-405c-9d54-ddc4189b00cb</lc:LogicalCircuitId>
+		<lc:X>1</lc:X>
+		<lc:Y>1</lc:Y>
+		<lc:Width>6</lc:Width>
+		<lc:Height>1</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph Margin="0,6,2,6"&gt;&lt;Run xml:lang="zh-cn"&gt;Q = EN ? A : B&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>8b459e73-c8ec-49b9-a3ad-70cd0febd3c3</lc:TextNoteId>
+		<lc:LogicalCircuitId>589a410e-a7fb-457d-83da-29ca1c0bebb4</lc:LogicalCircuitId>
+		<lc:X>1</lc:X>
+		<lc:Y>1</lc:Y>
+		<lc:Width>6</lc:Width>
+		<lc:Height>1</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph Margin="0,6,2,6"&gt;&lt;Run xml:lang="zh-cn"&gt;Q = EN ? A : B&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>a94f797d-5886-4e4b-90c6-1ecfc4f9e361</lc:TextNoteId>
+		<lc:LogicalCircuitId>01587c46-1f62-4c80-8b6a-68ddf9db7533</lc:LogicalCircuitId>
+		<lc:X>1</lc:X>
+		<lc:Y>1</lc:Y>
+		<lc:Width>6</lc:Width>
+		<lc:Height>1</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph Margin="0,6,2,6"&gt;&lt;Run xml:lang="zh-cn"&gt;Q = EN ? A : B&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
 </lc:CircuitProject>
